@@ -1,0 +1,36 @@
+{
+  "framework": "FAR 52.204-21",
+  "title": "Basic Safeguarding of Covered Contractor Information Systems",
+  "version": "sample",
+  "publisher": "First Step Technology LLC",
+  "license_scope": "Public demonstration sample only",
+  "requirements": [
+    {
+      "requirement_id": "FAR-52.204-21-B1",
+      "category": "Access Control",
+      "requirement_summary": "Limit information system access to authorized users, processes acting on behalf of authorized users, and authorized devices.",
+      "machine_actionable_instruction": "Verify that access controls restrict system access to approved users, approved service accounts, and authorized devices.",
+      "evidence_examples": [
+        "User access list",
+        "Identity provider configuration",
+        "Device inventory",
+        "Access review records"
+      ],
+      "source": "48 CFR 52.204-21"
+    },
+    {
+      "requirement_id": "FAR-52.204-21-B2",
+      "category": "Access Control",
+      "requirement_summary": "Limit system access to the types of transactions and functions authorized users are permitted to execute.",
+      "machine_actionable_instruction": "Review roles and permissions to confirm that users can perform only approved functions.",
+      "evidence_examples": [
+        "Role definitions",
+        "Permission matrices",
+        "Application access settings",
+        "Privileged access review"
+      ],
+      "source": "48 CFR 52.204-21"
+    }
+  ],
+  "disclaimer": "This file is an illustrative sample and does not include the complete commercial rule library."
+}
